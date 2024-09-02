@@ -1,0 +1,27 @@
+﻿<Window x:Class="SQA.HNCcomputing"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SQA"
+        mc:Ignorable="d"
+        Title="HNC Computing" Height="450" Width="605.834">
+    <Grid>
+        <Label Content="Welcome to the HNC Computing Portal. &#xD;&#xA;Please enter your final marks for each &#xD;&#xA;unit and click on continue." HorizontalAlignment="Left" Margin="325,28,0,0" VerticalAlignment="Top" Width="199" FontFamily="Impact" Height="62"/>
+        <Label Content="SQA" HorizontalAlignment="Left" Margin="26,21,0,0" VerticalAlignment="Top" FontFamily="Impact" FontSize="40" Width="75"/>
+        <TextBlock x:Name="displayInfo" HorizontalAlignment="Left" Margin="233,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188"/>
+        <Label Content="Student name and SNC:" HorizontalAlignment="Left" Margin="75,98,0,0" VerticalAlignment="Top"/>
+        <Label Content="Computer Systems Fundamentals (H175 34)" HorizontalAlignment="Left" Margin="113,153,0,0" VerticalAlignment="Top"/>
+        <Label Content="Developing Software: Introduction (H173 34)" HorizontalAlignment="Left" Margin="113,190,0,0" VerticalAlignment="Top"/>
+        <Label Content="Professionalism and Ethics in Computing (H1F7 34)" HorizontalAlignment="Left" Margin="113,228,0,0" VerticalAlignment="Top"/>
+        <Label Content="Project Management: An Introduction (H17D 34)" HorizontalAlignment="Left" Margin="113,305,0,0" VerticalAlignment="Top"/>
+        <Label Content="Troubleshooting Computing Problems (H177 34)" HorizontalAlignment="Left" Margin="113,268,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtmark1" HorizontalAlignment="Left" Height="23" Margin="414,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="53"/>
+        <TextBox x:Name="txtmark2" HorizontalAlignment="Left" Height="23" Margin="414,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="53"/>
+        <TextBox x:Name="txtmark3" HorizontalAlignment="Left" Height="23" Margin="414,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="53"/>
+        <TextBox x:Name="txtmark4" HorizontalAlignment="Left" Height="23" Margin="414,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="53"/>
+        <TextBox x:Name="txtmark5" HorizontalAlignment="Left" Height="23" Margin="414,305,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="53"/>
+        <Button x:Name="btnContinue" Content="Continue" HorizontalAlignment="Left" Margin="405,353,0,0" VerticalAlignment="Top" Width="75" Click="btnContinue_Click"/>
+
+    </Grid>
+</Window>
